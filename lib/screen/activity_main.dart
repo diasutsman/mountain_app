@@ -10,13 +10,6 @@ class MainActivity extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Mountain App"),
-        //actions: [
-        //  IconButton(
-        //    tooltip: "Favorite Mountain",
-        //    icon: const Icon(Icons.favorite),
-        //    onPressed: () {},
-        //  ),
-        //],
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
